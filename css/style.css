@@ -13,15 +13,12 @@
 
 body{
     background: var(--preto);
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    color: var(--branco);
 }
 
 header{
     background: var(--branco)
-}
-
-header .logo{
-
 }
 
 header nav a{
