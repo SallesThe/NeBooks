@@ -1,0 +1,46 @@
+:root{
+    --preto:  #000000;
+    --azul:   #008fee;
+    --branco: #FFFFFF;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background: var(--preto);
+    font-family:'Courier New', Courier, monospace
+}
+
+header{
+    background: var(--branco)
+}
+
+header .logo{
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--azul);
+    margin-right: 5px;
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+}
+
+header nav a:hover{
+    color: var(--preto);
+}
+
+.margem{
+    padding-bottom: 5px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
