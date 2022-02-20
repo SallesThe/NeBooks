@@ -10,6 +10,7 @@
     margin: 0px;
 }
 
+/*Elementos base*/
 
 body{
     background: var(--preto);
@@ -18,7 +19,7 @@ body{
 }
 
 header{
-    background: var(--branco)
+    background: var(--branco);
 }
 
 header nav a{
@@ -40,4 +41,25 @@ header nav a:hover{
     padding-bottom: 5px;
     margin-left: 360px;
     margin-right: 360px;
+}
+
+/*Foto Principal*/
+
+.mensagem-principal{
+    font-size: 12px;
+    background: /*linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%)*/ url('/imagens/foto-principal.jpg');
+
+    height: 400px;
+    background-size:cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.imagem01{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
 }
