@@ -1,0 +1,9 @@
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Não consegui deixar a página responsiva como o professor ensinou no projeto... Se alguém quiser
+me ajudar a realizar o êxito na responsividade ficarei grato. */
